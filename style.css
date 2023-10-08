@@ -203,6 +203,7 @@ header h3{
 .btnC{
     width:70px;
     height:70px;
+    margin:2.5rem;
     border-radius:50%;
     border:3px solid var(--border02);
     transition:all 0.2s ease;
@@ -215,11 +216,18 @@ header h3{
 
 }
 
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
 .controls i{
     font-size:20px;
     user-select:none;
     color:#a7a9a7;
     display:flex;
+    flex-direction:row;
     cursor:pointer;
     align-items:center;
     justify-content: center;
