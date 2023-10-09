@@ -242,19 +242,19 @@ header h3{
 
 .play-pause i{
     text-align: center;
-    color:white;
+    color:#e4e3e3af;
 }
 
 .play-pause {
     border:3px solid #54ce0e;
     background:linear-gradient(135deg,
                 #a4e50b,
-                #4cb60f);
+                #317509);
     box-shadow: 
      10px 10px 12px #151618,
     -10px -10px 12px #222529,
      inset 10px 10px  8px #a4e50b,
-     inset -10px -10px 8px #4cb60f;
+     inset -10px -10px 8px #317509;
 }
 
 .play-pause:active{
@@ -262,5 +262,5 @@ header h3{
      10px 10px 12px #151618,
     -10px -10px 12px #222529,
      inset -10px -10px  8px #a4e50b,
-     inset 10px 10px 8px #4cb60f;
+     inset 10px 10px 8px #317509;
 }
