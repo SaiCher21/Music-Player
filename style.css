@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Homenaje&family=Orbitron&display=swap');
 
 :root{
 
     /* bg */
-    --bg01:linear-gradient(180deg,
-           #22262A 0%,
-           #181A1D 100%);
+    --bg01: linear-gradient(180deg,
+            #22262A 0%,
+            #181A1D 100%);
 
-    --bg02:linear-gradient(135deg,
-           #2F3439,
-           #1D1F23);
+    --bg02: linear-gradient(135deg,
+            #2F3439,
+            #1D1F23);
 
-    --bg03:linear-gradient(135deg,
-           #2C3136,
-           #1D2023);
+    --bg03: linear-gradient(135deg,
+            #2C3136,
+            #1D2023);
 
-    --bg-04:#040404;
+    --bg04: #040404;
     
-    --border01:#22262A;
-    --border02:#1A1D21;
+    --border01: #22262A;
+    --border02: #1A1D21;
 
     /* box-shadow */
     --box-shadow01:
@@ -38,7 +38,7 @@
            -6px -6px 12px #2c3136; 
     
     --box-shadow04:
-          inset 2px 2px 3px -2px rgb(167, 169, 171, 0.322),
+          inset 2px 2px 3px -2px rgba(167, 169, 171, 0.322),
           inset 0px -1px 1px 0px #4a4c4e;
           
     --box-shadow05: 
@@ -56,21 +56,22 @@
     --box-shadow07:
           10px 10px 12px #151618,
           -10px -10px 12px #222529,
-          inset 4px 4px 8px #33353b,
-          inset -4px -4px 8px #151618;
+          inset -4px -4px 8px #33353b,
+          inset 4px 4px 8px #151618;
          
           
 }
+
+
 *{
     box-sizing:border-box;
     margin:0;
     padding:0;
-    font-family: 'Orbitron', sans-serif;
-    
+    font-family: 'Orbitron', sans-serif;  
 }
 
 body{
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif; 
     background:var(--bg01);
     height:100vh;
 }
@@ -80,12 +81,12 @@ body{
     height:100vh;
     text-align:center;
     padding:2rem;
-    margin:0 auto;
+    margin: 0 auto;
     overflow:hidden;
 }
 
 header,
-.song-timer
+.song-timer,
 .controls {
     display: flex;
     align-items: center;
@@ -179,11 +180,11 @@ header h3{
     box-shadow:var(--box-shadow04);
 }
 
-.progress-area::after{
-    content:"";
+.progress-bar::after {
+    content: "";
     position:absolute;
     background:#e1530a;
-    border-radius:50%;
+    border-radius: 50%;
     top:50%;
     right:-5px;
     z-index: 2;
@@ -203,7 +204,7 @@ header h3{
     justify-content:center;
 }
 
-.btnC{
+.btnC {
     width:70px;
     height:70px;
     margin:2.5rem;
@@ -252,8 +253,8 @@ header h3{
     box-shadow: 
      10px 10px 12px #151618,
     -10px -10px 12px #222529,
-     inset 4px 4px  8px #e5550b,
-     inset -4px -4px 8px #bd2210;
+     inset 10px 10px  8px #e5550b,
+     inset -10px -10px 8px #bd2210;
 }
 
 .play-pause:active{
