@@ -183,7 +183,7 @@ header h3{
 .progress-bar::after {
     content: "";
     position:absolute;
-    background:#e1530a;
+    background:#c1e10a;
     border-radius: 50%;
     top:50%;
     right:-5px; 
@@ -246,21 +246,21 @@ header h3{
 }
 
 .play-pause {
-    border:3px solid #ce4b0e;
+    border:3px solid #54ce0e;
     background:linear-gradient(135deg,
-                #bd2210,
-                #e5550b);
+                #a4e50b,
+                #4cb60f);
     box-shadow: 
      10px 10px 12px #151618,
     -10px -10px 12px #222529,
-     inset 10px 10px  8px #e5550b,
-     inset -10px -10px 8px #bd2210;
+     inset 10px 10px  8px #a4e50b,
+     inset -10px -10px 8px #4cb60f;
 }
 
 .play-pause:active{
     box-shadow: 
      10px 10px 12px #151618,
     -10px -10px 12px #222529,
-     inset -10px -10px  8px #e5550b,
-     inset 10px 10px 8px #bd2210;
+     inset -10px -10px  8px #a4e50b,
+     inset 10px 10px 8px #4cb60f;
 }
