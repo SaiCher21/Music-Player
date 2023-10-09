@@ -204,7 +204,6 @@ header h3{
 .btnC {
     width:70px;
     height:70px;
-    margin:2.5rem;
     border-radius:50%;
     border:3px solid var(--border02);
     transition:all 0.2s ease;
