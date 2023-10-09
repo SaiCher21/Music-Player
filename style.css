@@ -198,6 +198,9 @@ header h3{
 
 .controls{
     margin:55px 8px 5px 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
 }
 
 .btnC{
@@ -211,15 +214,8 @@ header h3{
     box-shadow:var(--box-shadow06);
 }
 
-.btnC :active{
+.btnC:active{
     box-shadow:var(--box-shadow07);
-
-}
-
-.controls{
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
 }
 
 .controls i{
