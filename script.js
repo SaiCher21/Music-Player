@@ -21,5 +21,5 @@ function loadMusic(indexNum){
     musicName.innertext = allMusic[indexNum - 1].name;
     musicArtist.innerText = allMusic[indexNum - 1].artist;
     musicImg.src = `assets/images/${all[indexNum - 1].src}.jpg`;
-    musicAudio.src = `assets/images/${all[indexNum - 1].src}.jpg`;
+    musicAudio.src = `assets/songs/${all[indexNum - 1].src}.mp3`;
 }
