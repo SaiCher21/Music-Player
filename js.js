@@ -24,6 +24,7 @@ function loadMusic(indexNum){
     mainAudio.src = `assets/songs/${allMusic[indexNum - 1].src}.mp3`;
 }
 
+
 function playMusic(){
     wrapper.classList.add("paused");
     playPauseBtn.innerHtml =`<i class= "fi fi-sr-pause"></i>`;

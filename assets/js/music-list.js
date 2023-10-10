@@ -1,4 +1,4 @@
-let allMusic=[
+let allMusic = [
     {
         name:"Living Hell",
         artist:"Bella poarch",
