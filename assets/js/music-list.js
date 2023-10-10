@@ -19,7 +19,7 @@ let allMusic=[
     },
     {
         name:"Dolls",
-        artist:"Bella poarch",
+        artist:"Bella poarch ",
         song:"music-4",
         src:"music-4"
     },
