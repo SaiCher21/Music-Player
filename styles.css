@@ -173,10 +173,6 @@ header h3{
     height:inherit;
     width:0%;
     position:relative;
-    border-radius:inherit;
-    background:linear-gradient(90deg,
-                #a4e50b 0%,
-                #317509 80%);
     box-shadow:var(--box-shadow04);
 }
 
