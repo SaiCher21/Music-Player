@@ -179,7 +179,7 @@ header h3{
 .progress-bar::after {
     content: "";
     position:absolute;
-    background:#c1e10a;
+    background:#54ce0e;
     border-radius: 50%;
     top:50%;
     right:-5px; 

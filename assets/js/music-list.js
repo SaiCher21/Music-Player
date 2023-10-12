@@ -36,9 +36,15 @@ let allMusic = [
         src:"music-6"
     },
     {
-        name:"See you again ",
+        name:"See you again",
         artist:"charlie puth, Wiz Khalifa",
         song:"music-7",
         src:"music-7"
+    },
+    {
+        name:"People",
+        artist:"Libianca Omah Lay",
+        song:"music-8",
+        src:"music-8"
     }
 ];

@@ -13,7 +13,7 @@ const wrapper = document.querySelector(".wrapper"),
 
 let musicIndex = Math.floor((Math.random() * allMusic.length) + 1);
 isMusicPaused = true;
-window.addEventListener("load", () =>{
+window.addEventListener("load", (e) =>{
     loadMusic(musicIndex);
 });
 
