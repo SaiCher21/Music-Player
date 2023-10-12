@@ -27,13 +27,13 @@ function loadMusic(indexNum){
 
 function playMusic(){
     wrapper.classList.add("paused");
-    playPauseBtn.innerHtml =`<i class= "fi fi-sr-pause"></i>`;
+    playPauseBtn.innerHTML =`<i class= "fi fi-sr-pause"></i>`;
     mainAudio.play();
 }
 
 function pauseMusic(){
     wrapper.classList.remove("paused");
-    playPauseBtn.innerHtml =`<i class= "fi fi-sr-play"></i>`;
+    playPauseBtn.innerHTML =`<i class= "fi fi-sr-play"></i>`;
     mainAudio.pause();
 }
 
