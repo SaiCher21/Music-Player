@@ -43,7 +43,7 @@ let allMusic = [
     },
     {
         name:"People",
-        artist:"Libianca Omah Lay",
+        artist:"Libianca, Omah Lay",
         song:"music-8",
         src:"music-8"
     }
